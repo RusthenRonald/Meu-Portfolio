@@ -16,3 +16,15 @@ header a {
     text-decoration: none;
     color: black;
 }
+header a:hover{
+    text-decoration: underline;
+}
+/*sobre mim*/
+section.container{
+
+}
+div.foto img{
+    width: 250px;
+    height: 250px;
+    border-radius: 70%;
+}
