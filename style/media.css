@@ -35,6 +35,9 @@ Breakpoint: min-width: 1441px
     .texto_skills{
         font-size: 2.5em;
     }
+    .h1projetos{
+        font-size: 2.5em;
+    }
 }
 /*Tablet*/
 @media screen and (min-width:768px) and (max-width:1024px){
@@ -59,6 +62,9 @@ Breakpoint: min-width: 1441px
         font-size: 40px;
     }
     .texto_skills{
+        font-size: 2.5em;
+    }
+    .h1projetos{
         font-size: 2.5em;
     }
 }
@@ -87,6 +93,9 @@ Breakpoint: min-width: 1441px
     .texto_skills{
         font-size: 2.7em;
     }
+    .h1projetos{
+        font-size: 2.7em;
+    }
 }
 /*Telas Grandes*/
 @media screen and (min-width:1441px) {
@@ -111,6 +120,9 @@ Breakpoint: min-width: 1441px
         font-size: 60px;
     }
     .texto_skills{
+        font-size: 2.9em;
+    }
+    .h1projetos{
         font-size: 2.9em;
     }
 }

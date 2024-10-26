@@ -69,9 +69,51 @@ div.texto span{
 section.projetos {
    display: flex;
    justify-content: center;
+   flex-wrap: wrap;
+   gap: 50px;
 }
 section.projetos img {
     width: 400px;
     height: 250px;
     border-radius: 10px;
+}
+.containerbotao{
+    display: flex;
+    gap: 15px;
+}
+.botao{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+.botao a{
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+#botao2 a{
+    background-color: black;
+    color: white;
+}
+.botao a:hover{
+    color: white;
+    background-color: black;
+}
+#botao2 a:hover{
+    background-color: white;
+    color: black;
+}
+footer{
+    background-color: rgb(1, 1, 172);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+footer i{
+    color: white;
+    font-size: 60px;
 }
