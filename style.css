@@ -46,20 +46,12 @@ div.texto span{
     color: blue;
 }
 /*skills*/
-.container_principal{/*para centralizar o background cinza no meio*/
-    display: flex;
-    justify-content: center;
-}
 /*skills*/
 .container_principal_skills{/*container dentro do principal , que bota os itens em coluna*/
     margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(70, 65, 65);
-    width: 80%;
-    border-radius: 10px;
-    padding: 10px;
 }
 .container_skills{/*apenas icones*/
     margin-top: 30px;
@@ -72,4 +64,14 @@ div.texto span{
 .texto_skills{/*texto de skills*/
     font-size: 1.7em;
     color: white;
+}
+/*projetos*/
+section.projetos {
+   display: flex;
+   justify-content: center;
+}
+section.projetos img {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
 }
