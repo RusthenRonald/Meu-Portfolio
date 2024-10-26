@@ -67,6 +67,11 @@ Breakpoint: min-width: 1441px
     .h1projetos{
         font-size: 2.5em;
     }
+    section.projetos img {
+        width: 50vw;
+        height: 250px;
+        border-radius: 10px;
+    }
 }
 /*Desktop*/
 @media screen and (min-width:1025px) and (max-width:1440px){
@@ -95,6 +100,11 @@ Breakpoint: min-width: 1441px
     }
     .h1projetos{
         font-size: 2.7em;
+    }
+    section.projetos img {
+        width: 400px;
+        height: 250px;
+        border-radius: 10px;
     }
 }
 /*Telas Grandes*/
@@ -125,4 +135,10 @@ Breakpoint: min-width: 1441px
     .h1projetos{
         font-size: 2.9em;
     }
+    section.projetos img {
+        width: 450px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    
 }

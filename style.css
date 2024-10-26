@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "JetBrains Mono", monospace;
 }
 body{
     height: 100vh;
@@ -73,7 +74,7 @@ section.projetos {
    gap: 50px;
 }
 section.projetos img {
-    width: 400px;
+    width: 350px;
     height: 250px;
     border-radius: 10px;
 }
@@ -107,13 +108,26 @@ section.projetos img {
 }
 footer{
     background-color: rgb(1, 1, 172);
-    height: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15px;
+}
+.container_icon{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
+.texto_footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: white;
+}
 footer i{
     color: white;
-    font-size: 60px;
+    font-size: 50px;
 }
