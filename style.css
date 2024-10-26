@@ -5,28 +5,71 @@
 }
 body{
     height: 100vh;
+    background-color: rgb(1, 1, 90)
 }
 header{
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-header a {
+nav {
+   margin-top: 20px;
+}
+nav a {
     padding-left: 10px;
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 0.7em;
 }
-header a:hover{
+nav a:hover{
     text-decoration: underline;
+    color: blue;
 }
 /*sobre mim*/
 section.container{
     margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 div.foto img{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+}
+div.texto{
+    color: white;
+    font-size: 0.8em;
+    margin-top: 80px;
+}
+div.texto span{
+    color: blue;
+}
+/*skills*/
+.container_principal{/*para centralizar o background cinza no meio*/
+    display: flex;
+    justify-content: center;
+}
+/*skills*/
+.container_principal_skills{/*container dentro do principal , que bota os itens em coluna*/
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(70, 65, 65);
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.container_skills{/*apenas icones*/
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+.container_skills i{/*apenas tamanho do icone*/
+    font-size: 30px;
+}
+.texto_skills{/*texto de skills*/
+    font-size: 1.7em;
+    color: white;
 }
